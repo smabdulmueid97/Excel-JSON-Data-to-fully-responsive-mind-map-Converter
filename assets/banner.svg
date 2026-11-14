@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Excel and JSON to Mind Map — your data, as a mind map that fits any screen">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366F1"/>
+      <stop offset="1" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E9E9FE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <circle cx="1060" cy="55" r="90" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="105" cy="305" r="70" fill="#FFFFFF" opacity="0.08"/>
+  <circle cx="990" cy="305" r="40" fill="#FFFFFF" opacity="0.10"/>
+  <text x="60" y="88" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="bold" fill="#FFFFFF">Excel / JSON → Mind Map</text>
+  <text x="60" y="133" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#DCDDFF">Your data, as a mind map that fits any screen.</text>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <rect x="60" y="168" width="130" height="54" rx="27" fill="#FFFFFF"/>
+    <text x="125" y="203" font-size="22" font-weight="bold" fill="#1E1B4B" text-anchor="middle">D3.js</text>
+    <rect x="206" y="168" width="200" height="54" rx="27" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="306" y="203" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">No build step</text>
+    <rect x="422" y="168" width="160" height="54" rx="27" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="502" y="203" font-size="22" font-weight="bold" fill="#FFFFFF" text-anchor="middle">5 versions</text>
+  </g>
+  <g>
+    <rect x="700" y="150" width="440" height="130" rx="16" fill="url(#card)"/>
+    <text x="730" y="192" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1E1B4B">Paste JSON → Run</text>
+    <text x="730" y="226" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" fill="#1E1B4B">or upload a CSV / JSON file</text>
+    <text x="730" y="262" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#444444">Click to expand, zoom to explore.</text>
+  </g>
+  <text x="60" y="320" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#C6C7FB">Plain HTML + JavaScript  •  Open index3.html and go</text>
+</svg>
